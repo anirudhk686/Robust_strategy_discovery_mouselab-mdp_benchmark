@@ -16,9 +16,9 @@ Note that in the Mouselab object the environment and its state is stored as a tr
 2) performAction(env,action_number) : Instead using env.step() directly, please use this function to perform action. It returns the next state, reward, is_done, is_observed(in case you click on already observed node).
 
 
-To generate the benchmark environments:
+The steps for generating the benchmark environments are as follows:
 
-Step 1 : first learn a posterior function( using a neural net, refer paper for details) and store the model. please run posterior.py for this.\
+Step 1 : first learn a posterior function (using a neural net, refer paper for details) and store the model. please run posterior.py for this.\
 Step 2 : Now as described in the paper with the prior and likelihood considered, there are 36 possiblities of theta's and 6 theta-hats. 
 a) to get a particular instance of theta-hat use : get_eval_that(int type_range_0to5) in the gen_environments.py.\
 b) to get the train environments given a particular theta-hat : get_train_envs(int type_range_0to5) in the gen_environments.py.(returns around 4000 environments as per the posterior and the posterior array over the 36 theta)\
