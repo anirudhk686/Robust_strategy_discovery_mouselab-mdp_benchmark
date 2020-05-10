@@ -25,11 +25,10 @@ b) to get the train environments given a particular theta-hat : get_train_envs(i
 c) to get the test environments given a particular theta-hat : get_test_envs(int type_range_0to5) in the gen_environments.py.(returns around 1000 environments as per the posterior and the posterior array over the 36 theta)
 
 To calculate the benchmark score:
-For each of the theta-hat type 0 to 5:
+a) For each of the theta-hat type 0 to 5:
 - train your algorithm using the train_envs.
-- calculate the average reward per environment in test_envs for that theta-hat type
-
-Compute average reward over 6 theta-hats.
+- calculate the average reward per environment in test_envs for that theta-hat type (avg_reward_theta-hat)
+b) Compute average over the 6 avg_reward_theta-hat's 
 
 
 
