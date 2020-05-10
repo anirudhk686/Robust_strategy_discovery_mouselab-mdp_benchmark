@@ -1,6 +1,6 @@
 # Robust strategy discovery benchmark problems
 
-This repository contains the code for generating the benchmark environments for Robust strategy discovery in the Mouselab-MDP environment illustrated in the figure below. The details of the environment structure is explained in [Kemtur, Jain, et al. (2020)][https://www.researchgate.net/publication/341251182_Leveraging_Machine_Learning_to_Automatically_Derive_Robust_Planning_Strategies_from_Biased_Models_of_the_Environment/].
+This repository contains the code for generating the benchmark environments for Robust strategy discovery in the Mouselab-MDP environment illustrated in the figure below. The details of the environment structure is explained in [Kemtur, Jain, et al. (2020)](https://www.researchgate.net/publication/341251182_Leveraging_Machine_Learning_to_Automatically_Derive_Robust_Planning_Strategies_from_Biased_Models_of_the_Environment/).
 
 This code helps to generate train and test environments as per the prior and likelihoods explained in our paper. Environments are of the mouselab-mdp type [Mouselab-MDP: A new paradigm for tracing how people plan](https://osf.io/7wcya). They are gym environments and hence suitable for RL algorithms.
 
