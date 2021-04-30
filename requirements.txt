@@ -127,7 +127,7 @@ tornado==6.0.3
 tqdm==4.35.0
 traitlets==4.3.2
 ua-parser==0.8.0
-urllib3==1.25.7
+urllib3==1.25.8
 user-agents==2.0
 wcwidth==0.1.7
 webencodings==0.5.1
